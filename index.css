@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    background-color: aqua
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+
+
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10%;
+    font-size: 8vmin;
+    color: brown;
+    background-color: white;
+    border: none;
+}
+#new_game{
+    padding: 1rem;
+    font-size: 1rem;
+    color:white;
+    background-color: black;
+    border-radius: 1rem;
+    border: none;
+    margin-right: 150px;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1rem;
+    color:white;
+    background-color: black;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+.container5{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.game5{
+    height: 80vmin;
+    width: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box5{
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 10%;
+    font-size: 7vmin;
+    color: brown;
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#new_game5, #reset5 {
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;  /* Buttons will be side by side */
+    gap: 2rem;  /* Space between buttons */
+}
+
+.matrix {
+    margin-top: 50px;
+    width: 150px;  /* Square width */
+    height: 150px; /* Square height */
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border: none;
+    border-radius: 10px; /* Slight rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.matrix:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
